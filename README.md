@@ -18,3 +18,11 @@ completed during my undergraduate studies in Computer Networks.
 ## Purpose
 To demonstrate strong theoretical understanding and clear technical documentation
 of core networking concepts.
+
+---
+
+## Quick Diagram: OSI Layers
+
+```mermaid
+flowchart TB
+L7["7 Application"] --> L6["6 Presentation"] --> L5["5 Session"] --> L4["4 Transport"] --> L3["3 Network"] --> L2["2 Data Link"] --> L1["1 Physical"]
