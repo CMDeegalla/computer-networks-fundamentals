@@ -21,8 +21,13 @@ of core networking concepts.
 
 ---
 
+This repository supports my practical labs by providing a strong theoretical
+foundations aligned with real network configurations.
+
+
 ## Quick Diagram: OSI Layers
 
 ```mermaid
 flowchart TB
 L7["7 Application"] --> L6["6 Presentation"] --> L5["5 Session"] --> L4["4 Transport"] --> L3["3 Network"] --> L2["2 Data Link"] --> L1["1 Physical"]
+
